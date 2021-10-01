@@ -27,5 +27,6 @@ try:
 		#スリープ
 		time.sleep(3.0)
 
+# Ctrl-Cをキャッチ 
 except KeyboardInterrupt:
 	pass
