@@ -8,7 +8,8 @@ from datetime import datetime
 try:
 	while True:
 
-		#現在の時間を取得
+		#現在の日付、時間を取得
+		pub_date = datetime.now().strftime("%Y/%m/%d")
 		pub_time = datetime.now().strftime("%H:%M:%S")
 
 		#センサーから温度、湿度、気圧を取得
